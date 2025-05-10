@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Store - Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg" alt="Apple Logo">
+        <h1>Checkout</h1>
+    </header>
+
+    <main class="checkout-container">
+        <section class="order-summary">
+            <h2>Your Order</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693009278906" alt="iPhone 15 Pro">
+                    <div class="product-details">
+                        <h3>iPhone 15 Pro</h3>
+                        <p>$999.00</p>
+                        <div class="quantity">Quantity: 1</div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-green-202011?wid=445&hei=445&fmt=jpeg&qlt=95&.v=1604024415000" alt="AirPods Max">
+                    <div class="product-details">
+                        <h3>AirPods Max</h3>
+                        <p>$549.00</p>
+                        <div class="quantity">Quantity: 1</div>
+                    </div>
+                </div>
+            </div>
+            <div class="total-section">
+                <div class="total-row">
+                    <span>Total:</span>
+                    <span>$1,548.00</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Information</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select Country</option>
+                        <option value="US">United States</option>
+                        <option value="CA">Canada</option>
+                        <option value="UK">United Kingdom</option>
+                    </select>
+                </div>
+                <button type="submit">Complete Purchase</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Apple Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
